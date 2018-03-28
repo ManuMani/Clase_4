@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+
+.bg-lalala{
+    background-color: cornflowerblue;
+}
+
+.bg-lalala:hover{
+    background:hsl(16,70%,50%);
+    transition: all ease .5s;
+}
+
+body{
+    background: orange;
+    font-family: 'ultra', serif;
+    font-weight: 400;
+     padding-top: 3.5rem;
+}
+
+
+h1, h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+img{ border:7px solid red;
+    border-radius: 50%;
+box-shadow: 0 0 5px rgba(0,0,0,.5);}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div[class^="col"] {
+    padding-top:0; 
+}
+
+
+div[class^="col"] {
+    padding-top:3rem 0; 
+}
+
